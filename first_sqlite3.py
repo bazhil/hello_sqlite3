@@ -42,7 +42,7 @@ def remove_emp(emp):
                   {'firstname': emp.firstname, 'lastname': emp.lastname})
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     conn = sqlite3.connect('employee.db')
 
     c = conn.cursor()
